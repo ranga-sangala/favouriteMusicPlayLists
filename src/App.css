@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.main-container {
+  background-color: #152850;
+  margin: 5px;
+  font-family: 'Roboto';
+}
+
+.poster-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  color: #ffffff;
+}
+
+.name-container {
+  margin-left: 120px;
+}
+
+.tracks-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 15px;
+
+  color: #ffffff;
+}
+
+input {
+  width: 300px;
+  padding: 15px;
+  width: 300px;
+  height: 20px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  color: #ffffff;
+}
+.track-list {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.track-details {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.left-section {
+  display: flex;
+  min-width: 200px;
+  max-width: 500px;
+  align-items: center;
+}
+.song-details {
+  margin-left: 20px;
+}
+.song-name {
+  color: #ffffff;
+}
+.song-genre {
+  color: #3b82f6;
+}
+.song-image {
+  height: 150px;
+}
+
+.right-section {
+  display: flex;
+  color: white;
+  align-items: center;
+}
+
+.song-duration {
+  margin-right: 15px;
+}
+button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 20px;
+}
+
+.message-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  font-family: 'Roboto';
+  width: 100%;
+  height: 100%;
+}
